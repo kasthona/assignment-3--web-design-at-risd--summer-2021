@@ -1,0 +1,116 @@
+blockquote {
+
+  background-color: #FCA311;
+  border: 4px solid #0C120C;
+  text-align: center;
+
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.name-of-person {
+  font-size: 30px;
+  line-height: 20px;
+  letter-spacing: 17px;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #0C120C;
+  margin-top: inherit;
+  margin-bottom: inherit;
+  letter-spacing: 5px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-top: inherit;
+  margin-bottom: inherit;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #FCA311;
+  border-top: 5px dashed #0C120C;
+}
+
+.top-div {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+button {
+  height: 60px;
+  width: 220px;
+  font-size: 20px;
+  background-color: #C2C2C2;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: 'Montserrat', serif;
+  border: 2px dashed #0C120C;
+  border-radius: 15px;
+}
+
+.top-buttons:hover {
+  font-family: 'Montserrat', serif;
+  margin-right: 10px;
+  border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	border: 2px dashed #0C120C;
+	border-radius: 15px;
+	background: transparent;
+	color: #0C120C;
+}
+
+header {
+  background-color: #C2C2C2;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.25) 100%);
+  box-sizing: border-box;
+  color: #eee;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  padding: 3rem 25%;
+  position: relative;
+  left: -25%;
+  width: 150%;
+  transition: all .25s ease-in-out;
+}
+
+body {
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-bottom: 80px;
+  margin-left: 40px;
+}
